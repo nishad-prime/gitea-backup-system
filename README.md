@@ -29,4 +29,4 @@ Starting this service will create a backup. Start the service like this:
 sudo systemctl start gitea-backup.service
 ```
 
-**Note**: `sudo` won't prompt for password if `PERMIT_NONROOT_BACKUP` is set `yes`.
+**Note**: `sudo` won't prompt for password if `PERMIT_NONROOT_BACKUP` is set to `yes`.
