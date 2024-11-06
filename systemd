@@ -1,0 +1,2 @@
+Defaults    env_keep += "TERMINFO"
+admin ALL=(ALL) NOPASSWD: /usr/bin/systemctl start gitea-backup.service

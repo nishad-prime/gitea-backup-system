@@ -1,0 +1,13 @@
+[Unit]
+Description=Gitea Backup Service
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/etc/gitea/backup
+ExecStart=/etc/gitea/backup/run.sh
+User=gitea
+Group=gitea
+
+[Install]
+WantedBy=multi-user.target

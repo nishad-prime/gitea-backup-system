@@ -1,0 +1,17 @@
+# Name of the dedicated user that runs everything relating to gitea. If you are
+# not using a dedicated user to run things relating to gitea, provide you own
+# user and and group name.
+GITEA_USER=gitea
+GITEA_GROUP=gitea
+# Path to where the app.ini resides preferably but any path where the user and
+# group provided above has permission to read, write and execute will work. This
+# script will be installed there.
+GITEA_HOME_DIR=/etc/gitea
+# MySQL database credentials for the database that gitea uses.
+DB_NAME=gitea
+DB_USER=gitea
+DB_PASS=fpm72jpupwmgbcd47dwq23uyo5ct75w4dfzc
+# Path to where the backups archives will be moved to.
+BACKUP_DIR=/opt/backups
+# Set this to yes to permit all user to run gitea backups (Default: no)
+PERMIT_NONROOT_BACKUP=yes
